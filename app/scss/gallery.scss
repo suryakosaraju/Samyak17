@@ -1,0 +1,30 @@
+.galleryView{
+    .item{
+        min-height: 130px;
+        padding-top: 35px;
+        
+        .icon:before{
+            font-size: 90px;
+        }
+        
+        p{
+            color: white;
+            padding-top: 12px;
+        }
+    }
+    
+    .item.ng-enter-stagger {
+        animation-delay:200ms;
+        animation-duration:0;
+    }
+    
+    @for $i from 1 through 10{
+		.animated:nth-child(#{$i}){
+			animation-delay: #{$i * 0.25}s;
+		}
+	}
+    
+    .bold{
+        font-weight: bold;
+    }
+}

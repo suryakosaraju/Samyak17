@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "225041371997",
+    "firebase_url": "https://samyak-b4b5b.firebaseio.com",
+    "project_id": "samyak-b4b5b",
+    "storage_bucket": "samyak-b4b5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225041371997:android:c7cd132bde630e51",
+        "android_client_info": {
+          "package_name": "com.ionicframework.samyak01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225041371997-d757aiqk9ngn1je15mt7p9ek348sk7bf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0Kuhoy5WNk2K2J3dYFwXnOu7la0j65NI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225041371997:android:763491848e5bec69",
+        "android_client_info": {
+          "package_name": "com.ionicframework.samyak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225041371997-d757aiqk9ngn1je15mt7p9ek348sk7bf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0Kuhoy5WNk2K2J3dYFwXnOu7la0j65NI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

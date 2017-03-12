@@ -1,0 +1,12 @@
+<ion-view view-title="" class="galleryView">
+  <ion-content>
+    <ion-list>
+      <div class="row row-wrap row-no-padding">
+        <ion-item ng-repeat="item in items" class="col col-50 button button-icon light animated bounceInUp" ng-style="{ 'background-color' : item.color }" on-tap="openItem(item)">
+          <i class="icon {{item.icon}}"></i>
+          <p class="bold">{{ item.title }}</p>
+        </ion-item>
+      </div>
+    </ion-list>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,45 @@
+<ion-view class="homeView" view-title="Home" hide-nav-bar="true">
+	<ion-content>
+		<div class="row row-center">
+			<div class="col col-center text-center">
+				<h1 class="animated bounceInDown" on-tap="HelloWorld()">Starter</h1>
+				<div id="container" class="animated bounceInLeft" on-tap="showUsers()">
+					<div id="bender">
+						<span class="eyes">
+							<span class="shadow-eyes"></span>
+							<span class="eyesInner">
+								<span class="eyes-left">
+									<span class="shadow-eyeInner"></span>
+									<span class="eyelids-left"></span>
+									<span class="iris-left"></span>
+								</span>
+								<span class="eyes-right">
+									<span class="shadow-eyeInner"></span>
+									<span class="iris-right"></span>
+								</span>
+								<span class="eyelids-right"></span>
+							</span>
+						</span>
+						<span class="mouth">
+							<span class="shadow-mouth"></span>
+							<ul class="grid-hor">
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+							<ul class="grid-ver">
+								<li></li>
+								<li></li>
+							</ul>
+						</span>
+					</div>
+				</div>
+				<button class="button button-outline button-block button-light animated bounceInUp" ui-sref="app.gallery">
+					Enter
+				</button>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>
